@@ -1,0 +1,26 @@
+/app
+  /home.tsx            ← Main feed screen showing alerts
+  /new-alert.tsx       ← Screen to create a new alert
++not-found.tsx          ← Already exists in template (fallback)
+_layout.tsx             ← Already exists in template (wraps screens)
+
+/assets
+  /images
+    favicon.png         ← App icon for web (optional)
+    icon.png            ← App icon for mobile
+
+/hooks
+  useFrameworkReady.ts  ← Already exists (template helper)
+
+/lib
+  supabase.ts           ← Supabase client setup
+
+/utils
+  storage.ts            ← AsyncStorage helpers for offline storage
+
+package.json            ← Already exists in template
+tsconfig.json           ← Already exists in template
+app.json                ← Already exists in template
+README.md               ← Project info
+LICENSE                 ← MIT or other license
+.gitignore              ← Standard gitignore
